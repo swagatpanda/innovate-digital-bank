@@ -2,20 +2,20 @@ version: "3.9"
 services:
   portal:
     build: ./portal/
-    image: swagatpanda/innovate-portal:v2.0.0
+    image: swagatpanda/innovate-portal:v1.0.0
   accounts:
     build: ./accounts/
-    image: swagatpanda/innovate-accounts:v2.0.0
+    image: swagatpanda/innovate-accounts:v1.0.0
   authentication:
     build: ./authentication/
-    image: swagatpanda/innovate-authentication:v2.0.0
+    image: swagatpanda/innovate-authentication:v1.0.0
   bills:
     build: ./bills/
-    image: swagatpanda/innovate-bills:v2.0.0
+    image: swagatpanda/innovate-bills:v1.0.0
   transactions:
     build: ./transactions/
-    image: swagatpanda/innovate-transactions:v2.0.0
+    image: swagatpanda/innovate-transactions:v1.0.0
   userbase:
     build: ./userbase/
-    image: swagatpanda/innovate-userbase:v2.0.0    
+    image: swagatpanda/innovate-userbase:v1.0.0    
         
